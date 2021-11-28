@@ -6,6 +6,8 @@ Tcl/Tk documentation structured according to the established conventions
 of the [Tcl manual](https://www.tcl.tk/man/tcl8.6.11/TclCmd/Tcl.html)
 with a clean web design.
 
+## Example Output
+
 ![A screenshot of a generated manual page](screenshot.png)
 
 ## Dependencies
