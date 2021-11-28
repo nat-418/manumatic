@@ -2,7 +2,7 @@
 
 This repository contains an example
 [Pollen](https://docs.racket-lang.org/pollen/) project that generates
-Tcl/Tk documentation structured according to the establish conventions
+Tcl/Tk documentation structured according to the established conventions
 of the [Tcl manual](https://www.tcl.tk/man/tcl8.6.11/TclCmd/Tcl.html)
 and with a clean web design.
 
