@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Starpackage v0.1.0 Manual</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/manual.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Starpackage v0.1.0 Manual</h1>
+    </header>
+    <main>
+      <section id="name"><h2><span>Name</span></h2><p>Starpackage — Build standalone executables from Tcl source files.</p></section><section id="synopsis"><h2><span>Synopsis</span></h2><p><span class="command">starpackage</span>
+<span class="parameters"><span class="parameter required">command</span>
+<span class="parameter optional variadic">arguments</span></span></p></section><section id="description"><h2><span>Description</span></h2><p>Starpacks are bundled Tcl applications that include a runtime,
+dependencies, and source code. The purpose of Starpackage is to
+provide a high-level API that abstracts the building of Starpacks
+into a few core commands:
+</p><ul><li><span class="command">demo</span>
+<p class="describe">Initialize an example project and make Starpacks of it.</p></li>
+<li><span class="command">init</span>
+<span class="parameter required">name</span>
+<p class="describe">Initialize a basic project called <em>name</em>.
+This will produce the virtual filesystem directory
+and populate it with skeleton files ready to be modified.</p></li>
+<li><span class="command">build</span>
+<span class="parameter required variadic">names</span>
+<p class="describe">Bundle any number of projects into Starpacks for various platforms
+and architectures. Will create a <code>bin/</code> directory if one
+does not already exist and put Starpacks there.</p></li></ul></section><section id="examples"><h2><span>Examples</span></h2><p><code><pre>$ starpackage demo
+$ exa --tree
+.
+├── bin
+│  ├── demo-linux-i686.kit
+│  └── demo-linux-x86_64.kit
+├── demo.vfs
+│  ├── lib
+│  └── main.tcl
+└── lib
+   ├── runtimes
+   │  ├── linux-i686.kit
+   │  └── linux-x86_64.kit
+   ├── sdx.kit
+   └── tclkit-8.6.3-linux-x86_64</pre></code></p></section><section id="see also"><h2><span>See Also</span></h2><p><a href="https://wiki.tcl-lang.org/page/Starpack">Starpack</a></p></section>
+    </main>
+    <footer>
+      <p>© 2021 nat-418</p>
+      <p>
+        Released under the
+        <a href="https://opensource.org/licenses/0BSD">0BSD</a>
+        License.
+      </p>
+      <p><a href="#">↑</a></p>
+    </footer>
+  </body>
+</html>
