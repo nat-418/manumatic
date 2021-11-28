@@ -60,7 +60,7 @@ the following:
 Pollen uses the lozenge (◊) to mark its functions. Manumatic defines
 a number of template functions for sections, commands, parameters, lists, etc. In the above code we can see that to
 define a section we call `◊section` followed a name parameter `"Name"`
-in square bracktes and the main text of the secton in curly braces.
+in square brackets and the main text of the secton in curly braces.
 These functions are defined in `src/pollen.rkt`, but authors of
 documentation do not need to understand the implementation details.
 All that is required to use the interface is to modify the values
