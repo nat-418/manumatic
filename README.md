@@ -32,7 +32,7 @@ and browse `http://localhost:8080/index.ptree`.
 ## Why Racket? Why Pollen?
 
 Racket is a programming language for programming programming languages.
-In other words, it is Scheme dialect particularly well-suited for creating
+In other words, it is a Scheme dialect particularly well-suited for creating
 domain-specific languages. 
 
 Pollen is a web publishing system written in Racket. Programming Pollen
