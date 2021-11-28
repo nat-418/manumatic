@@ -21,7 +21,7 @@ contents of `src/manual/starpackage`. For most use cases the only changes
 required are:
 
 1. Rename the directory from `src/manual/starpackage` to whatever else.
-2. Rename the `src/manual/starpackage/starpackage-v0.1.0.html.pm`.
+2. Rename the `src/manual/starpackage/starpackage-v0.1.0.html.pm` file.
 3. Edit that `.html.pm` Pollen preprocessor file.
 4. `$ make`
 5. Look in `dist/` for the processed manual files (HTML, CSS, etc).
