@@ -29,8 +29,6 @@ required are:
 To start live-reloading local development server, type `$ make dev`
 and browse `http://localhost:8080/index.ptree`.
 
-```
-
 ## Why Racket? Why Pollen?
 
 Racket is a programming language for programming programming languages.
